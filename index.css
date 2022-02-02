@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cinema{
+    margin-top: 10px;
+    background-color: black;
+}
+
+.seat-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.seat-inner{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.seat-inner.active{
+    background-color: red;
+}
