@@ -5,7 +5,6 @@ totalAmount.className = 'total-amount'
 totalAmount.innerHTML = 'Total Money : 0 THB'
 App.appendChild(totalAmount)
 
-
 let cinemaCol = 5
 let cinemaRow = 5
 
